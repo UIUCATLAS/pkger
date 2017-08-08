@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pkg-info postinstall-action="none" format-version="2" identifier="UIUCIDENTIFIER" version="UIUCVERSION" generator-version="szuta" install-location="/" auth="root">
+    <payload numberOfFiles="1" installKBytes="0"/>
+    <bundle-version/>
+    <upgrade-bundle/>
+    <update-bundle/>
+    <atomic-update-bundle/>
+    <strict-identifier/>
+    <relocate/>
+    <scripts>
+        <postinstall file="./postinstall"/>
+    </scripts>
+</pkg-info>
