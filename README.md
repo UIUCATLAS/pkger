@@ -15,7 +15,7 @@ say "ATLAS rocks!"
 Execute
 
 ```
-docker run --rm -it -v `pwd`:/data uiucatlas/pkger demo.sh com.illinois.atlas.demo 1.0
+docker run --rm -v `pwd`:/data uiucatlas/pkger demo.sh com.illinois.atlas.demo 1.0
 ```
 
 This will create the installer package `demo.sh.pkg` in your current directory. That's it!
